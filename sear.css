@@ -2,7 +2,7 @@ body {
     font-family: monospace, sans-serif;
     background-color: #0f1114; 
     margin: 0;
-    padding: 4px;
+    padding: 3px;
     color: #CCCCCC;
 }
 
@@ -19,8 +19,8 @@ header {
     max-width: flex;
     margin: auto;
     background: #2c2f33; 
-    padding: 20px;
-    border-radius: 8px; 
+    padding: 3px;
+    border-radius: 5px; 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Тень */
 }
 
@@ -50,7 +50,7 @@ header {
     background-color: #0078ff; 
     color: white; 
     border: none; 
-    border-radius: 4px; 
+    border-radius: 6px; 
     cursor: pointer; 
     transition: background-color 0.9s; 
 }
@@ -76,8 +76,9 @@ a:hover {
 .results {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px; /* Промежуток между элементами */
-    margin-top: 20px; /* Отступ сверху */
+    gap: 14px; /* Промежуток между элементами */
+    margin: 20px auto; /* Центрируем контейнер и добавляем отступ сверху */
+    max-width: 1300px; /* Максимальная ширина для контейнера */
 }
 
 .item {
@@ -87,14 +88,16 @@ a:hover {
     border: 1px solid #ccc; /* Обводка для элемента */
     border-radius: 8px; /* Закругленные углы */
     padding: 4px; /* Внутренний отступ */
-    width: calc(47% - 19px); /* Ширина элемента, 2 в ряд с учетом отступов */
+    width: calc(54% - 40px); /* Ширина элемента, два в ряд с учетом отступов */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.9); /* Тень для элемента */
     transition: transform 0.2s; /* Плавный переход при наведении */
     background-color: #262c3c;
+    margin: 0 auto; /* Центрируем каждый элемент внутри контейнера */
 }
 
+
 .item:hover {
-    transform: scale(1.05); /* Увеличение при наведении */
+    transform: scale(1.01); /* Увеличение при наведении */
 }
 
 .item img {
@@ -111,8 +114,7 @@ a:hover {
     text-decoration: none; /* Убираем подчеркивание */
     border-radius: 5px; /* Скругляем углы */
     transition: background-color 0.3s; /* Плавный переход цвета фона */
-    width: 60%; /* Ширина кнопки меньше ширины объявления */
-    max-width: 210px; /* Максимальная ширина кнопки */
+    width: calc(79% - 10px); /* Кнопка занимает всю ширину с учетом отступов */
     align-self: center; /* Центрируем кнопку по горизонтали */
 }
 
@@ -133,24 +135,3 @@ a:hover {
     text-align: center; /* Центрируем содержимое */
     margin-top: 10px; /* Отступ сверху для отделения от текста */
 }
-
-/* Медиазапросы для мобильных устройств */
-@media (max-width: 600px) {
-    .item {
-        width: calc(100% - 20px); /* Занимаем всю ширину экрана с учетом отступов */
-        margin-bottom: 20px; /* Отступ между элементами по вертикали */
-        padding: 10px; /* Увеличиваем внутренний отступ для лучшего восприятия на мобильных устройствах */
-    }
-
-    .search-container input {
-        width: calc(100% - 20px); /* Поле ввода занимает всю ширину с учетом отступов */
-        margin-bottom: 10px; /* Отступ снизу для поля ввода на мобильных устройствах */
-    }
-
-    .search-container button {
-        width: calc(100% - 20px); /* Кнопка занимает всю ширину с учетом отступов */
-        margin-left: 0; /* Убираем левый отступ для кнопки на мобильных устройствах */
-        padding: 12px; /* Уменьшаем внутренний отступ для кнопки на мобильных устройствах */
-    }
-}
-
