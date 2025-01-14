@@ -19,7 +19,7 @@ header {
     max-width: flex;
     margin: auto;
     background: #2c2f33; 
-    padding: 3px;
+    padding: 5px;
     border-radius: 5px; 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Тень */
 }
@@ -76,7 +76,7 @@ a:hover {
 .results {
     display: flex;
     flex-wrap: wrap;
-    gap: 14px; /* Промежуток между элементами */
+    gap: 2px; /* Промежуток между элементами */
     margin: 20px auto; /* Центрируем контейнер и добавляем отступ сверху */
     max-width: 1300px; /* Максимальная ширина для контейнера */
 }
