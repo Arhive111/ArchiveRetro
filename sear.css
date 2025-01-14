@@ -1,0 +1,145 @@
+body {
+    font-family: monospace, sans-serif;
+    background-color: #0f1114; 
+    margin: 0;
+    padding: 4px;
+    color: #CCCCCC;
+}
+
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #202224; 
+    color: #ffffff; /* Цвет текста  */
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.content {
+    max-width: flex;
+    margin: auto;
+    background: #2c2f33; 
+    padding: 20px;
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Тень */
+}
+
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 23px; /* Отступ снизу */
+}
+
+
+.search-container input {
+    padding: 10px;
+    width: 80%;
+    border: 1px solid #555; 
+    border-radius: 4px; 
+    background-color: #2a2a2a; 
+    color: #ffffff; /* Цвет текста в поле ввода */
+}
+
+
+.search-container input::placeholder {
+    color: #b0b0b0; 
+}
+
+
+.search-container button {
+    font-family: 'Courier Prime', monospace;
+    padding: 18px;
+    margin-left: 10px;
+    background-color: #0078ff; 
+    color: white; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    transition: background-color 0.9s; 
+}
+
+.search-container button:hover {
+    background-color: #005bb5; 
+}
+
+
+/* Стили для ссылок и интерактивных элементов как у телеграм */
+a {
+    color: #fcfcfc; 
+}
+
+a:hover {
+    color: coral; 
+}
+
+
+::selection {
+    background-color: #005bb5; 
+    color: white; 
+}
+
+.results {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Промежуток между элементами */
+    margin-top: 20px; /* Отступ сверху */
+}
+
+.item {
+    display: flex; /* Используем flexbox для размещения элементов */
+    flex-direction: column; /* Устанавливаем направление по вертикали */
+    justify-content: space-between; /* Распределяем пространство между элементами */
+    border: 1px solid #ccc; /* Обводка для элемента */
+    border-radius: 8px; /* Закругленные углы */
+    padding: 4px; /* Внутренний отступ */
+    width: calc(47% - 19px); /* Ширина элемента, 3 в ряд с учетом отступов */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.9); /* Тень для элемента */
+    transition: transform 0.2s; /* Плавный переход при наведении */
+    background-color: #262c3c;
+}
+
+.item:hover {
+    transform: scale(1.05); /* Увеличение при наведении */
+}
+
+.item img {
+    max-width: 100%; /* Адаптивная ширина изображения */
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+}
+
+
+.item a {
+    margin-top: auto; /* Отодвигаем кнопку вниз */
+    display: inline-block; /* Делаем ссылку блочным элементом */
+    padding: 13px 5px; /* Добавляем внутренние отступы */
+    background-color: #007bff; /* Цвет фона кнопки */
+    color: white; /* Цвет текста */
+    text-decoration: none; /* Убираем подчеркивание */
+    border-radius: 5px; /* Скругляем углы */
+    transition: background-color 0.3s; /* Плавный переход цвета фона */
+    width: 50%; /* Ширина кнопки меньше ширины объявления */
+    max-width: 160px; /* Максимальная ширина кнопки */
+    align-self: center; /* Центрируем кнопку по горизонтали */
+}
+
+.item a:hover {
+    background-color: #0056b3; /* Цвет фона при наведении */
+}
+
+
+.item-text {
+    font-size: 15px; /* Уменьшаем размер шрифта */
+    color: #ffffff; /* Цвет текста */
+}
+
+.item strong {
+    font-size: 17px; /* Размер шрифта для названия */
+}
+
+.button-container {
+    text-align: center; /* Центрируем содержимое */
+    margin-top: 10px; /* Отступ сверху для отделения от текста */
+}
+
