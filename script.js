@@ -1,10 +1,10 @@
 
 const items = [
     { 
-        name: "Лонгслив", 
-        description: "1100", 
-        imageUrl: "https://i.pinimg.com/736x/7b/f1/d9/7bf1d9b7a4b13f8104757e84c3d547ad.jpg", 
-        link: "https://ru.pinterest.com/pin/895934919618406830/" 
+        name: "Лонгслив архив", 
+        description: "1190", 
+        imageUrl: "https://pin.it/3GgVnR2UJ", 
+        link: "https://www.avito.ru/tver/odezhda_obuv_aksessuary/longsliv_arhiv_4537088705?utm_campaign=native&utm_medium=item_page_android&utm_source=soc_sharing_seller" 
     },
     { 
         name: "Книга", 
