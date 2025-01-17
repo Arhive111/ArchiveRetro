@@ -3,7 +3,7 @@ const items = [
     { 
         name: "Лонгслив архив", 
         description: "1190", 
-        imageUrl: "https://pin.it/3GgVnR2UJ", 
+        imageUrl: "https://pin.it/1ZDanJcqU", 
         link: "https://www.avito.ru/tver/odezhda_obuv_aksessuary/longsliv_arhiv_4537088705?utm_campaign=native&utm_medium=item_page_android&utm_source=soc_sharing_seller" 
     },
     { 
