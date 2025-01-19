@@ -3,20 +3,20 @@ const items = [
     { 
         name: "Лонгслив архив", 
         description: "1190", 
-        imageUrl: "https://pin.it/1ZDanJcqU", 
+        imageUrl: "https://i.pinimg.com/736x/f9/06/80/f90680e81d479650986fc938ec5efabd.jpg", 
         link: "https://www.avito.ru/tver/odezhda_obuv_aksessuary/longsliv_arhiv_4537088705?utm_campaign=native&utm_medium=item_page_android&utm_source=soc_sharing_seller" 
     },
     { 
-        name: "Книга", 
-        description: "1900", 
-        imageUrl: "https://i.pinimg.com/736x/8d/42/90/8d4290b0af6bbd6df34e6423ecaad56e.jpg", 
-        link: "https://ru.pinterest.com/pin/4222193394678340/" 
+        name: "Архивная футболка BMW x Adidas", 
+        description: "350", 
+        imageUrl: "https://i.pinimg.com/736x/10/09/95/100995875dbe65c7444641862f02b41a.jpg", 
+        link: "https://www.avito.ru/tver/odezhda_obuv_aksessuary/arhivnaya_futbolka_bmw_x_adidas_redkiy_ekzemplyar_4568532175?utm_campaign=native&utm_medium=item_page_android&utm_source=soc_sharing_seller" 
     },
     { 
-        name: "Тетейки", 
-        description: "100", 
-        imageUrl: "path/to/teteiki.jpg", 
-        link: "link/to/teteiki" 
+        name: "Куртка Diesel японский стиль", 
+        description: "6500", 
+        imageUrl: "https://i.pinimg.com/736x/11/97/54/119754319333b4f0127edcb6f754a239.jpg", 
+        link: "https://www.avito.ru/tver/odezhda_obuv_aksessuary/kurtka_diesel_yaponskiy_stil_redkiy_dizaynarhiv_4568824094?utm_campaign=native&utm_medium=item_page_android&utm_source=soc_sharing_seller" 
     },
 ];
 
