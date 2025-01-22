@@ -18,6 +18,18 @@ const items = [
         imageUrl: "https://i.pinimg.com/736x/11/97/54/119754319333b4f0127edcb6f754a239.jpg", 
         link: "https://www.avito.ru/tver/odezhda_obuv_aksessuary/kurtka_diesel_yaponskiy_stil_redkiy_dizaynarhiv_4568824094?utm_campaign=native&utm_medium=item_page_android&utm_source=soc_sharing_seller" 
     },
+    { 
+        name: "Кожаная куртка Sigrano", 
+        description: "4838", 
+        imageUrl: "https://i.pinimg.com/736x/69/b8/e9/69b8e913a5ce48083f5d9a82cbf2b0cd.jpg", 
+        link: "https://www.avito.ru/tver/odezhda_obuv_aksessuary/kozhanaya_kurtka_sigrano_4568874372?utm_campaign=native&utm_medium=item_page_android&utm_source=soc_sharing_seller" 
+    },
+    { 
+        name: "Куртка Karvin Max", 
+        description: "2500", 
+        imageUrl: "https://i.pinimg.com/736x/c2/fc/aa/c2fcaafbaa96e46688097d8512f7e069.jpg", 
+        link: "https://www.avito.ru/tver/odezhda_obuv_aksessuary/kurtka_karvin_max_4569317149?utm_campaign=native&utm_medium=item_page_android&utm_source=soc_sharing_seller" 
+    },
 ];
 
 function searchItems() {
