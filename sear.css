@@ -77,61 +77,61 @@ a:hover {
     display: flex;
     flex-wrap: wrap;
     gap: 4px; /* Промежуток между элементами */
-    margin: 20px auto; /* Центрируем контейнер и добавляем отступ сверху */
-    max-width: 1300px; /* Максимальная ширина для контейнера */
+    margin: 20px auto; /*контейнер по центру и  отступ сверху */
+    max-width: 1300px; /* Макс. ширина для контейнера */
 }
 
 .item {
-    display: flex; /* Используем flexbox для размещения элементов */
-    flex-direction: column; /* Устанавливаем направление по вертикали */
-    justify-content: space-between; /* Распределяем пространство между элементами */
-    border: 1px solid #ccc; /* Обводка для элемента */
-    border-radius: 8px; /* Закругленные углы */
+    display: flex; 
+    flex-direction: column; /*направление по вертикали */
+    justify-content: space-between; 
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
     padding: 4px; /* Внутренний отступ */
-    width: calc(54% - 35px); /* Ширина элемента, два в ряд с учетом отступов */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.9); /* Тень для элемента */
-    transition: transform 0.2s; /* Плавный переход при наведении */
+    width: calc(54% - 35px); /* Ширина элемента, два в ряд */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.9); 
+    transition: transform 0.2s; /* увеличение при наведении */
     background-color: #262c3c;
-    margin: 0 auto; /* Центрируем каждый элемент внутри контейнера */
+    margin: 0 auto; 
 }
 
 
 .item:hover {
-    transform: scale(1.01); /* Увеличение при наведении */
+    transform: scale(1.01); 
 }
 
 .item img {
-    max-width: 100%; /* Адаптивная ширина изображения */
-    height: auto; /* Автоматическая высота для сохранения пропорций */
+    max-width: 100%; 
+    height: auto; 
 }
 
 .item a {
     margin-top: auto; /* Отодвигаем кнопку вниз */
-    display: inline-block; /* Делаем ссылку блочным элементом */
-    padding: 13px 5px; /* Добавляем внутренние отступы */
-    background-color: #007bff; /* Цвет фона кнопки */
-    color: white; /* Цвет текста */
-    text-decoration: none; /* Убираем подчеркивание */
-    border-radius: 5px; /* Скругляем углы */
-    transition: background-color 0.3s; /* Плавный переход цвета фона */
-    width: calc(79% - 10px); /* Кнопка занимает всю ширину с учетом отступов */
-    align-self: center; /* Центрируем кнопку по горизонтали */
+    display: inline-block; 
+    padding: 13px 5px; 
+    background-color: #007bff; /* Цвет кнопки */
+    color: white; 
+    text-decoration: none; 
+    border-radius: 5px; 
+    transition: background-color 0.3s; 
+    width: calc(79% - 10px); 
+    align-self: center; 
 }
 
 .item a:hover {
-    background-color: #0056b3; /* Цвет фона при наведении */
+    background-color: #0056b3; 
 }
 
 .item-text {
-    font-size: 15px; /* Уменьшаем размер шрифта */
-    color: #ffffff; /* Цвет текста */
+    font-size: 15px; 
+    color: #ffffff; 
 }
 
 .item strong {
-    font-size: 17px; /* Размер шрифта для названия */
+    font-size: 17px; 
 }
 
 .button-container {
-    text-align: center; /* Центрируем содержимое */
-    margin-top: 10px; /* Отступ сверху для отделения от текста */
+    text-align: center;
+    margin-top: 10px; 
 }
