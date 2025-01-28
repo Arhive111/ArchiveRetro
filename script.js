@@ -26,9 +26,21 @@ const items = [
     },
     { 
         name: "Куртка Karvin Max", 
-        description: "2500", 
+        description: "1500", 
         imageUrl: "https://i.pinimg.com/736x/c2/fc/aa/c2fcaafbaa96e46688097d8512f7e069.jpg", 
         link: "https://www.avito.ru/tver/odezhda_obuv_aksessuary/kurtka_karvin_max_4569317149?utm_campaign=native&utm_medium=item_page_android&utm_source=soc_sharing_seller" 
+    },
+    { 
+        name: "Куртка пальто зимнее Dixi coat", 
+        description: "3440", 
+        imageUrl: "https://i.pinimg.com/736x/57/03/9c/57039ca3a0c515d2411f94aeee908816.jpg", 
+        link: "https://www.avito.ru/tver/odezhda_obuv_aksessuary/kurtka_palto_zimnee_dixi_coat_4569417412?utm_campaign=native&utm_medium=item_page_android&utm_source=soc_sharing_seller" 
+    },
+    { 
+        name: "Архивное худи", 
+        description: "200", 
+        imageUrl: "https://i.pinimg.com/736x/2b/d4/75/2bd4752bd7182b577745504dd683f48f.jpg", 
+        link: "https://www.avito.ru/tver/odezhda_obuv_aksessuary/arhivnoe_hudi_4569137290?utm_campaign=native&utm_medium=item_page_android&utm_source=soc_sharing_seller" 
     },
 ];
 
